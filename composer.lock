@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "db1ad849641e378df31b40971ca32986",
-    "content-hash": "ec1d12c35516186d90b626935e6e9079",
+    "hash": "8580bd82955b1fbb80d47024e184056e",
+    "content-hash": "e1929a97e872bdbaacc8530468eccb67",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -57,69 +57,6 @@
             ]
         },
         {
-            "name": "bower-asset/fastclick",
-            "version": "v1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ftlabs/fastclick.git",
-                "reference": "9977a916739360ad4ffd7aa19b0016bf375e934b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ftlabs/fastclick/zipball/9977a916739360ad4ffd7aa19b0016bf375e934b",
-                "reference": "9977a916739360ad4ffd7aa19b0016bf375e934b",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "lib/fastclick.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "component.json",
-                    "package.json",
-                    "Makefile",
-                    "tests",
-                    "examples"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/foundation",
-            "version": "5.4.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zurb/bower-foundation.git",
-                "reference": "4371fdca68a2635a7000c9f5567ff9bb62d2a687"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zurb/bower-foundation/zipball/4371fdca68a2635a7000c9f5567ff9bb62d2a687",
-                "reference": "4371fdca68a2635a7000c9f5567ff9bb62d2a687",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/fastclick": ">=0.6.11",
-                "bower-asset/jquery": ">=2.1.0",
-                "bower-asset/jquery-placeholder": "~2.0.7",
-                "bower-asset/jquery.cookie": "~1.4.0",
-                "bower-asset/modernizr": ">=2.7.2"
-            },
-            "require-dev": {
-                "bower-asset/jquery.autocomplete": "1.2.9",
-                "bower-asset/lodash": "~2.4.1"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "css/foundation.css",
-                    "css/foundation.css.map",
-                    "js/foundation.js"
-                ],
-                "bower-asset-ignore": [],
-                "bower-asset-private": true
-            }
-        },
-        {
             "name": "bower-asset/jquery",
             "version": "2.1.4",
             "source": {
@@ -162,77 +99,6 @@
                 "jquery",
                 "library"
             ]
-        },
-        {
-            "name": "bower-asset/jquery-placeholder",
-            "version": "v2.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mathiasbynens/jquery-placeholder.git",
-                "reference": "510a577397713934b46ccaceaa7ecc558cff313a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mathiasbynens/jquery-placeholder/zipball/510a577397713934b46ccaceaa7ecc558cff313a",
-                "reference": "510a577397713934b46ccaceaa7ecc558cff313a",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.6"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "jquery.placeholder.js"
-                ],
-                "bower-asset-ignore": [
-                    "*",
-                    "!/bower.json",
-                    "!/jquery.placeholder.js"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A jQuery plugin that enables HTML5 placeholder behavior for browsers that aren’t trying hard enough yet",
-            "keywords": [
-                "form",
-                "jQuery",
-                "jquery-plugin",
-                "placeholder"
-            ]
-        },
-        {
-            "name": "bower-asset/jquery.cookie",
-            "version": "v1.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/carhartl/jquery-cookie.git",
-                "reference": "7f88a4e631aba8a8c688fd8999ce6b9bcfd50718"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/carhartl/jquery-cookie/zipball/7f88a4e631aba8a8c688fd8999ce6b9bcfd50718",
-                "reference": "7f88a4e631aba8a8c688fd8999ce6b9bcfd50718",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.2"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "./jquery.cookie.js"
-                ],
-                "bower-asset-ignore": [
-                    "test",
-                    ".*",
-                    "*.json",
-                    "*.md",
-                    "*.txt",
-                    "Gruntfile.js"
-                ]
-            }
         },
         {
             "name": "bower-asset/jquery.inputmask",
@@ -285,22 +151,6 @@
                 "mask",
                 "plugins"
             ]
-        },
-        {
-            "name": "bower-asset/modernizr",
-            "version": "v2010.07.06",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Modernizr/Modernizr.git",
-                "reference": "0178be01bed4093cedda1f7c099b66ce475de131"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Modernizr/Modernizr/zipball/0178be01bed4093cedda1f7c099b66ce475de131",
-                "reference": "0178be01bed4093cedda1f7c099b66ce475de131",
-                "shasum": ""
-            },
-            "type": "bower-asset-library"
         },
         {
             "name": "bower-asset/punycode",
@@ -466,48 +316,6 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
-        },
-        {
-            "name": "nonzod/yii2-foundation",
-            "version": "v0.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nonzod/yii2-foundation.git",
-                "reference": "a25714e79761d13dd148d48bae9b9207070defbc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nonzod/yii2-foundation/zipball/a25714e79761d13dd148d48bae9b9207070defbc",
-                "reference": "a25714e79761d13dd148d48bae9b9207070defbc",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/foundation": "5.4.*",
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "nonzod\\foundation\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nicola Tomassoni",
-                    "email": "nicola@digisin.it",
-                    "homepage": "http://www.digisin.it/"
-                }
-            ],
-            "description": "The Foundation extension for the Yii framework",
-            "keywords": [
-                "foundation",
-                "yii2"
-            ],
-            "time": "2014-11-14 11:22:52"
         },
         {
             "name": "swiftmailer/swiftmailer",
